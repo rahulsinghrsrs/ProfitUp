@@ -29,7 +29,7 @@
     type="text/css" media="all">
 
   <!-- CSS STYLES -->
-  <link rel="stylesheet" href="marketup.in/assets/css/vendors/bootstrap.css" type="text/css" media="all">
+  <link rel="stylesheet" href="assets/css/vendors/bootstrap.css" type="text/css" media="all">
   <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all">
   <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" type="text/css" media="all">
   <link rel="stylesheet" href="assets/css/vendors/splitting.css" type="text/css" media="all">
@@ -437,7 +437,7 @@
                       <div class="image">
                         <div class="img">
                           <a href="https://www.instagram.com/p/CTKuitJiNuo/?img_index=1" target="_blank">
-                            <img decoding="async" src="markitup.in/assets/images/work/instagramcarousel1.webp"
+                            <img decoding="async" src="assets/images/work/instagramcarousel1.webp"
                               alt="Instagram Growth Carousel">
                             <span class="overlay"></span>
                           </a>
