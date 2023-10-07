@@ -1,5 +1,3 @@
-
-<!doctype html>
 <html lang="en-US">
 
 <head>
@@ -1074,6 +1072,4 @@
   <script src="assets/js/typed.js"></script>
   <script src="assets/js/common.js"></script>
 
-</body>
 
-</html> 
