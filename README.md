@@ -437,7 +437,7 @@
                       <div class="image">
                         <div class="img">
                           <a href="https://www.instagram.com/p/CTKuitJiNuo/?img_index=1" target="_blank">
-                            <img decoding="async" src="assets/images/work/instagramcarousel1.webp"
+                            <img decoding="async" src="markitup.in/assets/images/work/instagramcarousel1.webp"
                               alt="Instagram Growth Carousel">
                             <span class="overlay"></span>
                           </a>
