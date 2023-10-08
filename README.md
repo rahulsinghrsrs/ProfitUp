@@ -123,7 +123,7 @@
                   </div>
                   <h1 class="title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
                     <span>
-                      <b>ProfitUp</b> </span>
+                     
                   </h1>
                   <div class="label lui-subtitle"> a <strong>Content Marketing Agency</strong>
                   </div>
