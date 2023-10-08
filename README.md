@@ -489,7 +489,7 @@
                       <div class="image">
                         <div class="img">
                           <a href="https://youtu.be/ROoTutcES0k" target="_blank">
-                            <img decoding="async" src="assets/images/work/Ishandocumentary.webp"
+                            <img decoding="async" src="assets/images/work/ishandocumentary.webp"
                               alt="Girish's Documentary">
                             <span class="overlay"></span>
                           </a>
