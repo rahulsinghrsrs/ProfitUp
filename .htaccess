@@ -1,0 +1,17 @@
+# Set cache control headers for HTML files (1 year)
+<FilesMatch "\.(html)$">
+   Header set Cache-Control "max-age=31536000, public"
+   Header set Expires "Thu, 01 Dec 2023 16:00:00 GMT"
+</FilesMatch>
+
+# Set cache control headers for CSS files (1 year)
+<FilesMatch "\.(css)$">
+   Header set Cache-Control "max-age=31536000, public"
+   Header set Expires "Thu, 01 Dec 2023 16:00:00 GMT"
+</FilesMatch>
+
+# Set cache control headers for JavaScript files (1 year)
+<FilesMatch "\.(js)$">
+   Header set Cache-Control "max-age=31536000, public"
+   Header set Expires "Thu, 01 Dec 2023 16:00:00 GMT"
+</FilesMatch>
