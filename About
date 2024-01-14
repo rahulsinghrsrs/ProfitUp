@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us Page in HTML and CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            transition: 0.5s;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        img {
+            width: 130px;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #f44336;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 70px;
+            padding-top: 20px;
+            font-family: 'Fredoka One', cursive;
+            color: #000000; /* Set text color to white */
+        }
+      h2 {
+            font-size: 20px;
+            padding-top: 20px;
+            font-family: sans-serif;
+            color: #000000; /* Set text color to white */
+        }
+
+        p {
+            line-height: 30px;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: #ffffff; /* Set text color to white */
+            padding-top: 20px;
+        }
+
+        .icon ion-icon {
+            font-size: 25px;
+            padding: 10px;
+            color: #f44336;
+            border-radius: 50%;
+            background-color: #dcd4d4ad;
+            margin: 20px 5px;
+            cursor: pointer;
+        }
+
+        .icon ion-icon:hover {
+            background-color: #f44336;
+            color: #fff;
+        }
+
+        .btn, .btn2 {
+    display: inline-flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 10px; /* Add margin for spacing */
+    padding: 15px; /* Add padding for internal spacing */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.btn {
+    width: 200px;
+    height: 35px;
+    background-color: #f44336;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn2 {
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #f44336;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f44336;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: #f44336;
+    color: #ffffff; /* Set text color to white on hover */
+}
+
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .social-icons-left {
+            flex: 1;
+            padding-right: 200px;
+        }
+
+        .social-icons-right {
+            flex: 1;
+        }
+
+        .social-icon {
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-left: 100px;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .wide-column {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .copyright {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://rahulsinghrsrs.github.io/ProfitUp/assets/images/testimonial/Girish-Kumar-Invest-ProfitUp.webp">
+    <h1>About Me</h1>
+    <h2>I help agencies & brands to turn their ideas into designs. My heart is creativity and design and my head<br>has always been business led. Which to this day has served me very well!</h2>
+    <div class="icon">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+    </div>
+
+    <a href="contact" class="btn">Contact Us</a>
+<a href="portfolio" class="btn2">See Design Work</a>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <footer>
+        <section class="social-icons">
+            <div class="social-icons-left">
+                <div class="heading">Connect with us on Social Media</div>
+            </div>
+            <div class="social-icons-right">
+                <a class="social-icon" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a class="social-icon" href="https://twitter.com/" target="_blank">Twitter</a>
+                <a class="social-icon" href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="wide-column">
+                <h3>Company Name</h3>
+                <p>Your company description goes here.</p>
+            </div>
+            <div class="column">
+                <h3>Products</h3>
+                <ul>
+                    <li>Product 1</li>
+                    <li>Product 2</li>
+                    <li>Product 3</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact</h3>
+                <p>Email: example@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Main Street, City, Country</p>
+            </div>
+        </section>
+
+        <p class="copyright">&copy; Copyright 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
