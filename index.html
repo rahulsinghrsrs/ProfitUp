@@ -42,8 +42,44 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .footer-section {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 255, 0.2); /* Blue background with 20% opacity */
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            z-index: 1000; /* Ensures it stays above other elements */
+        }
+
+        .footer-section .bold-text {
+            font-weight: bold;
+            color: white; /* Ensures the text has full opacity */
+        }
+
+    </style>
+</head>
+<div class="footer-section">
+    This <span class="bold-text">website</span>. website is a showcase of my skills and does not represent any working agency. 
+</div>
 <body class="home light-skin">
   <div class="container-page">
 
